@@ -72,44 +72,55 @@ p {
 }
 
 .container {
-    display:flex;
-    justify-content:space-around;
-    width:100%;
+    width: 800px;
+    margin: 0 auto;
 }
 
+.tippy{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width:20%;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;  
+}
 .links{
-    width:80%;
+    width:75%;
     display:flex;
     justify-content:space-around;
     align-items: center;
 }
-
 .headline{
     width:100%;
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top:3%;
-    margin-bottom: 5%;
+    margin: 3% 0;
 }
 .top-content {
+    width: 60%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin: 3% 20%; 
+    
 }
 
 .top-content .text-container {
-    width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;  
 }
 
 .middle-content {
-    width: 100%;
+    width: 60%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin: 3% 20%;    
     
 }
 .middle-content .middle-logo{
@@ -173,15 +184,9 @@ p {
 }
 
 .bottom-content {
-    width:100%;
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: center;
-}
-
-.bottom-content .text-container {
-    width: 40%;
-    padding-right: 4%;
+    justify-content: flex-start;
+    margin: 3% 20%;
 }
 
 .bottom-content .text-container:last-child {
@@ -189,8 +194,8 @@ p {
 }
 
 footer {
-    width: 100%;
     background: black;
+    margin: 0 17%;
 }
 
 footer nav {
@@ -200,7 +205,6 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-    margin: 0 5%;
 }
 
 footer nav a {
